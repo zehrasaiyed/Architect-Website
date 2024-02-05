@@ -965,5 +965,8 @@ width: 100%;
     .footer{
         height: 18rem;
     }
+    .field:focus ~ label{
+        transform: translateY(-3.5rem);
+    }
     
 }
